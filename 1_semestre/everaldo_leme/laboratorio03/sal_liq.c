@@ -13,7 +13,7 @@ int main(){
     printf("Porcentagem de desconto do INSS: \n");
     scanf("%f", &inss);
     
-    sb = vh * ht;
+    sb = vh * ht; //vuma
     dis = sb*(inss/100);
     sl = (sb - dis) * dt;
 
