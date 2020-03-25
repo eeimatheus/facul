@@ -11,6 +11,5 @@ int main(){
 
     printf("A area total e: %.2f. \n", area);
     
-    
-
+    return 0;
 }
