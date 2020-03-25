@@ -11,9 +11,6 @@ int main()
 	area= (base * alt)/2;
 
     area>=1000 ? printf("Triangulao bixo: %.2f. \n", area) :  printf("Area total do Triangulo:  %.2f. \n", area);
-	
 
-
-	
-		return 0;
+	return 0;
 }
