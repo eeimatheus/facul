@@ -2,11 +2,10 @@
 
 int main(){
 
-    int n, r, cr, a=1;
+    int n, r, cr=0, a=1;
     
     printf("Digite aqui o numero: \n");
     scanf("%i", &n);
-    cr = 0;
     for (a=1;a<=n; a++){
         r=n%a;
         if (r==0) cr=cr+1;
